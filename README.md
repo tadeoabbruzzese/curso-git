@@ -65,3 +65,13 @@ git switch nb
 ```sh
 git switch -
 ```
+
+## Para hacer merge entre ramas
+
+```sh
+git merge nb # donde nb es una rama
+```
+
+## Para eliminar una rama 
+```sh
+git branch -d nb #Una vez hecho el merge, eliminar ramas que no se utilizan
