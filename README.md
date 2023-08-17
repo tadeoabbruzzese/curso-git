@@ -32,4 +32,9 @@ git commit --amend -m "Nuevo mensaje"
 ## gitkeep: Me permite seguir carpetas vacías.
 Git no versiona carpetas. Si yo quisiera que git siga una carpeta tengo que crear un archivo llamado por la comunidad. **.gitkeep**
 
+## REMOTE: Me permite agregar la URL del repositorio em el local para luego subir los cambios
 
+```sh
+git remote 
+git remote -v #informacion detallada
+```
