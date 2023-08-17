@@ -38,3 +38,30 @@ Git no versiona carpetas. Si yo quisiera que git siga una carpeta tengo que crea
 git remote 
 git remote -v #informacion detallada
 ```
+
+## RAMAS: me permite trabajar en una rama distinta al main para poder trabajar de manera independiente, para luego poder un merge entero del proyecto
+
+
+## Crear ramas: Para crear y cambiarse a un nuevo branch, primero debemos estar al dia con los commits
+
+```sh
+git branch nb #Se crea un nuevo branch. "nb" seria el nombre de la rama
+```
+
+## Listar ramas
+
+```sh
+git branch
+```
+
+## Moverme a una rama (Cambiar de rama)
+
+```sh
+git switch <nombre-rama>
+git switch nb
+```
+## Para cambiar entre las ultimas 2 ramas
+
+```sh
+git switch -
+```
